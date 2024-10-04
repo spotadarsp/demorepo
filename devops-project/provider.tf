@@ -1,4 +1,10 @@
 provider "aws" {
     region = "ap-south-1"
-    profile = "default"
+    profile = "shubham"
 }
+
+# provider "aws" {
+#   region     = "us-east-1"  # Specify your desired AWS region
+#   access_key = var.aws_access_key_id
+#   secret_key = var.aws_secret_access_key
+# }
